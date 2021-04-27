@@ -96,13 +96,22 @@
             <span class="text-primary">Pull Requests</span>
           </h1>
 
-          <p class="mb-5">Show your list of PRs in this page</p>
+          <p class="mb-5"><!--Show your list of PRs in this page--></p>
+          <!-- Search Box & Button-->
+          <div id="search-box">
+            <input type="text" id="search" placeholder="Search.." />
+
+            <button type="submit"><i class="fa fa-search"></i></button>
+            <br />
+            <span id="error"></span>
+          </div>
+          <!-- End Search Box & Button-->
           <ul
             id="pull-requests-list"
             class="list-inline list-social-icons mb-0"
           >
             <li>
-              Your list of PRs should appear here
+              <!-- Your list of PRs should appear here -->
             </li>
           </ul>
         </div>
@@ -119,5 +128,6 @@
     <!-- Custom scripts for this template -->
     <script src="../js/resume.min.js"></script>
     <!-- Link to the pull-requests.js file here -->
+    <script src="../js/pull-requests.js"></script>
   </body>
 </html>
